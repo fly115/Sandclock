@@ -25,7 +25,7 @@ Still working on this. Only tested on my one sandtable (not a Sisyphus table) ru
 
 7. Re-sync and save new gcode file. 
 
-8. Use Octprint playlist plugin (or scheduler plugin) to start the print at 12:00 or at the start time you set. put on repeat. Best have the print run slightly ahead of schedule and then use the plugin settings to start the next print at midnight each night. This way slight time variances do not accumulate. 
+8. Use Octprint playlist plugin (or scheduler plugin) to start the print at 12:00 or at the start time you set. put on repeat. Best to have the print run slightly ahead of schedule and then use the plugin settings to start the next print at midnight each night. This way slight time variances do not accumulate. 
 
 You can use the batch save button to save the print at multiple start times. for example, set increment to 15min, or 5min or 1min. batch save all files. upload them all  (use multipleupload octoprint plugin to make this faster) then just select the one you need based the current time. This means you can kick of the clock at whatever time you want. You could use the scheduler plugin to keep it going after that.
 
